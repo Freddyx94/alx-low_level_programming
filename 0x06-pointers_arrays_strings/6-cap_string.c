@@ -4,7 +4,7 @@
  * cap_string - function that capitalizes all words of a string.
  * @str: pointer to string.
  *
- * Return: pointer to s.
+ * Return: pointer to str.
  */
 char *cap_string(char *str)
 
@@ -20,7 +20,7 @@ char *cap_string(char *str)
 				str[index - 1] == '\n' ||
 				str[index - 1] == ',' ||
 				str[index - 1] == ';' ||
-				str[index - 1] == ',' ||
+				str[index - 1] == '.' ||
 				str[index - 1] == '!' ||
 				str[index - 1] == '?' ||
 				str[index - 1] == '"' ||
